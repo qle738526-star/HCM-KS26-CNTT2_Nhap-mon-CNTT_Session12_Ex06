@@ -1,0 +1,12 @@
+Bài 6 : Hoàn thiện bộ hồ sơ triển khai nền tảng Smart-Home 
+Phần 1. Phân tích:
+Đặc điểm của một bảng Excel xấu là:
+Hàng đầu tiên có merge cells
+Có ô trống trong bảng
+Phần tổng/trung bình để trong bảng
+Một hàng có quá nhiều thông tin của nhiều người, vật
+Một cột có nhiều loại thông tin
+
+Phần 3. Kiểm thử:
+Cách dùng dấu $ là: $G$4:$I$9 (quét hết từ G4 đến I9), sẽ không làm cho bị nhảy ô khi quét
+Nếu không có $ thì những tên trùng nhau có thể hiện lỗi #N\A vì dữ liệu của nó nằm ngoài khoảng mà VLOOKUP quét.
